@@ -1,0 +1,609 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(0, 0, 37);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(21, 21, 146)
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(154, 154, 247);
+    font-size: 1.008rem;
+}
+
+main hr {
+    border: 0;
+    background: #9c97f1;
+    height: 1.2px;
+    margin: 40px 84px;
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 140px 0;
+
+}
+
+.firstsection>div {
+    width: 40%;
+}
+
+.leftsection {
+    font-size: 3rem;
+}
+
+.btn {
+    padding: 12px;
+    background: #0d0b64;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.leftsection .button {
+    padding: 50px 0;
+}
+
+.rightsection img {
+    width: 80%;
+
+}
+
+.purple {
+    color: rgb(170, 107, 228);
+}
+
+.text-gray {
+    color: gray;
+}
+
+#element {
+    color: rgb(170, 107, 228);
+}
+
+.secondSection {
+    max-width: 80vw;
+    margin: auto;
+    height: 100vh;
+}
+
+.secondSection h1 {
+    font-size: 1.9rem;
+    padding-bottom: 50px;
+}
+
+.secondSection .box {
+    background: white;
+    width: 80vw;
+    height: 2px;
+    margin: 25px 0;
+    display: flex;
+    
+}
+
+.secondSection .vertical {
+    background: white;
+    height: 55px;
+    width: 1px;
+    margin: 0 180px;
+}
+
+.img-top {
+    width: 55px;
+    position: relative;
+    top: -54px;
+    left: -27px;
+}
+
+.vertical-title {
+    position: relative;
+    top: -10px;
+    left: 10px;
+    width: 250px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.vertical-desc {
+    position: relative;
+    top: -10px;
+    left: 10px;
+    color: gray;
+    width: 250px;
+    font-size: 15px;
+    padding: 10px;
+}
+
+footer {
+    background-color: rgb(46, 32, 92);
+}
+
+footer h3 {
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-second {
+    display: flex;
+    padding: 20px 10px;
+    justify-content: space-evenly;
+
+}
+
+.footer-second ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+
+}
+
+.footer-second ul li {
+    padding: 2px 30px;
+}
+
+
+footer .footer-rights {
+    text-align: center;
+    color: gray;
+    padding: 12px 0;
+}
+
+.thirdsection {
+    margin: auto;
+    max-width: 80vw;
+    height: 120vh;
+}
+
+.thirdsection h1 {
+    font-size: 1.9rem;
+}
+
+.firstsrvs {
+    background-color: #020814;
+    width: 500px;
+    height: 370px;
+    border: 5px solid #1c1a64;
+    border-radius: 4px;
+    padding: 20px;
+    margin: 35px 10px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.firstsrvs h3 {
+    text-align: center;
+    padding: 15px;
+}
+
+.text-yellow {
+    color: rgb(238, 238, 5);
+    padding-top: 40px;
+    text-align: justify;
+}
+
+.svs {
+    width: 100px;
+    height: 91px;
+    align-items: center;
+    padding-left: 200px;
+}
+
+.fourthsection {
+    padding-bottom: 45px;
+    margin: auto;
+    max-width: 80vw;
+    height: 150vh;
+
+}
+
+.fourthsection h3 {
+    font-size: 1.8rem;
+}
+
+.fourthsection>div {
+    display: inline-flex;
+    width: 140px;
+    height: 190px;
+    margin: 80px;
+}
+
+form {
+    margin-left: 120px;
+    background-color: #505288;
+    align-items: center;
+    width: 130vh;
+    height: 410px;
+    padding: 30px;
+    text-align: center;
+
+}
+
+input {
+    height: 30px;
+    width: 400px;
+    margin: 10px;
+    padding: 10px;
+}
+
+textarea {
+    width: 865px;
+    height: 150px;
+
+}
+
+.sendme {
+    width: 150px;
+    height: 50px;
+    padding: 12px;
+    background: #0d0b64;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.contact button img {
+    width: 70px;
+    height: 60px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.text-blue {
+    padding-left: 450px;
+    font-size: 1.9rem;
+    color: #5728e1;
+}
+
+.fivethsection {
+    margin: auto;
+    max-width: 80vw;
+    height: 100vh;
+}
+
+.fivethsection h3 {
+    font-size: 1.8rem;
+}
+
+.skills {
+    margin: 40px;
+}
+
+.skill-set {
+    padding-top: 20px;
+    padding-left: 160px;
+}
+
+.skill-title span {
+    padding-left: 400px;
+
+}
+
+.skill-bar {
+    height: 8px;
+    width: 50%;
+    background-color: rgb(220 209 223);
+    position: absolute;
+
+}
+
+.skill-per {
+    height: 8px;
+    background-color: yellow;
+    position: relative;
+    animation: mymove 3s 1;
+}
+
+.skill-per ::before {
+    content: attr(percentage);
+    position: absolute;
+    padding: 4px 6px;
+    font-size: 12px;
+    background: #f1f1f1;
+    right: 0;
+    transform: translateX(50%);
+    border-radius: 4px;
+
+}
+
+.skill-per ::after {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: #f1f1f1;
+    top: -20px;
+    right: 0;
+    transform: translateX(50%) rotate(45deg);
+    border-radius: 2px;
+
+}
+
+.gotop img {
+    background: #9a83bd;
+    padding: 10px;
+    margin-left: 190vh;
+    height: 30px;
+    width: 20px;
+    border: 3px solid #e0e2ec;
+    border-radius: 8px;
+    rotate: 270deg;
+    cursor: pointer;
+    transition: all 5s;
+    bottom: 16px;
+    right: 32px;
+    position: fixed;
+    opacity: 12;
+
+}
+
+.gotop.active {
+    bottom: 32px;
+    pointer-events: auto;
+    opacity: 1;
+
+}
+
+
+@keyframes mymove {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+
+
+
+/* ------------- To Make Website Responsive - here is media query ------------- */
+
+
+@media only screen and (max-width: 1516px) {
+
+    body{
+        min-width: fit-content;
+    }
+
+  nav{
+    flex-direction: column;
+    position: relative;
+  }
+
+  .firstsection{
+    flex-direction: column-reverse;
+  }
+
+  .leftsection {
+    width: 50%;
+  }
+
+  .rightsection {
+    width: 50%;
+  }
+
+  .vertical-title, .vertical-desc{
+    left: 45px;
+  }
+
+  .secondSection .box{
+    width: 50vw;
+  }
+ 
+  .secondSection {
+    height: 105vw;
+  }
+
+  .secondSection .vertical{
+    height: unset;
+  }
+
+  .box{
+    flex-direction: column;
+  }
+
+  .thirdsection{
+    height: auto;
+  }
+
+  .fourthsection{
+    margin-bottom: 40vh;
+  }
+
+  .fourthsection > div{
+    margin: 50px;
+  }
+
+  form {
+    margin-left: 30px;
+  }
+
+  .skill-title span {
+    padding-left: unset  !important;
+  }
+
+  .fivethsection {
+    height: 110vh;
+  }
+
+  .img-top {
+    top: 50px;
+  }
+
+  .skill-title span{
+    padding-left: unset;
+  }
+
+  footer{
+   
+    position: absolute;
+  }
+  
+
+}
+
+
+
+@media only screen and (max-width: 1060px) {
+    body{
+        min-width: fit-content;
+    }
+
+    .leftsection {
+        width: 500%;
+      }
+    
+      .rightsection {
+        width: 50%;
+      }
+
+      .secondSection {
+        height: 125vw;
+      }
+}
+
+
+@media only screen and (max-width: 900px) {
+
+    body{
+        min-width: fit-content;
+    }
+
+    nav{
+        min-width: fit-content;
+    }
+
+    .secondSection {
+        height: 155vw;
+      }
+
+      .fourthsection {
+        margin-bottom: 25vh;
+      }
+
+      .fivethsection{
+        height: 120vh;
+      }
+}
+
+
+@media only screen and (max-width: 725px) {
+    body{
+        min-width: fit-content;
+    }
+    .secondSection {
+        height: 190vw;
+      }
+
+      .fourthsection {
+        margin-bottom: 90vh;
+        }
+}
+
+
+@media only screen and (max-width: 590px) {
+
+    body{
+        min-width: fit-content;
+    }
+    .secondSection {
+        height: 235vw;
+      }
+
+      .fourthsection {
+        margin-bottom: 120vh;
+        }
+
+        .fivethsection{
+            height: 130vh;
+          }
+
+}
+
+@media only screen and (max-width: 480px) {
+    .secondSection {
+        height: 300vw;
+      }
+
+      .fourthsection {
+        margin-bottom: 125vh;
+      }
+
+      body{
+        min-width: fit-content;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .secondSection {
+        height: 350vw;
+      }
+
+      .fourthsection{
+        margin-bottom: 130vh;
+      }
+
+      body{
+        min-width: fit-content;
+    }
+}
+
+
+@media only screen and (max-width: 300px) {
+    .secondSection {
+        height: 445vw;
+      }
+
+      .fourthsection{
+        margin-bottom: 130vh;
+      }
+
+      body{
+        min-width: fit-content;
+    }
+}
