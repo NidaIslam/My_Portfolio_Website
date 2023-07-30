@@ -1,4 +1,3 @@
-
 * {
     margin: 0;
     padding: 0;
@@ -12,6 +11,8 @@ body {
     background-color: rgb(0, 0, 37);
     color: white;
     font-family: 'Poppins', sans-serif;
+    min-width: 100vw;
+    min-height: 100vh;
 }
 
 nav {
@@ -103,7 +104,7 @@ main hr {
 .secondSection {
     max-width: 80vw;
     margin: auto;
-    height: 90vh;
+    height: 100vh;
 }
 
 .secondSection h1 {
@@ -115,13 +116,14 @@ main hr {
     background: white;
     width: 80vw;
     height: 2px;
-    margin: 50px 0;
+    margin: 25px 0;
     display: flex;
+    
 }
 
 .secondSection .vertical {
     background: white;
-    height: 50px;
+    height: 55px;
     width: 1px;
     margin: 0 180px;
 }
@@ -189,7 +191,7 @@ footer .footer-rights {
 .thirdsection {
     margin: auto;
     max-width: 80vw;
-    height: 100vh;
+    height: 120vh;
 }
 
 .thirdsection h1 {
@@ -203,7 +205,7 @@ footer .footer-rights {
     border: 5px solid #1c1a64;
     border-radius: 4px;
     padding: 20px;
-    margin: 100px 10px;
+    margin: 35px 10px;
     display: inline-flex;
     flex-direction: column;
     align-items: stretch;
@@ -228,9 +230,11 @@ footer .footer-rights {
 }
 
 .fourthsection {
+    padding-bottom: 45px;
     margin: auto;
     max-width: 80vw;
     height: 150vh;
+
 }
 
 .fourthsection h3 {
@@ -240,7 +244,7 @@ footer .footer-rights {
 .fourthsection>div {
     display: inline-flex;
     width: 140px;
-    height: 140px;
+    height: 190px;
     margin: 80px;
 }
 
@@ -249,7 +253,7 @@ form {
     background-color: #505288;
     align-items: center;
     width: 130vh;
-    height: 380px;
+    height: 410px;
     padding: 30px;
     text-align: center;
 
@@ -390,5 +394,217 @@ textarea {
 
     to {
         width: 100%;
+    }
+}
+
+
+
+
+
+
+/* ------------- To Make Website Responsive - here is media query ------------- */
+
+
+@media only screen and (max-width: 1516px) {
+
+    body{
+        min-width: fit-content;
+    }
+
+  nav{
+    flex-direction: column;
+    position: relative;
+  }
+
+  .firstsection{
+    flex-direction: column-reverse;
+  }
+
+  .leftsection {
+    width: 50%;
+  }
+
+  .rightsection {
+    width: 50%;
+  }
+
+  .vertical-title, .vertical-desc{
+    left: 45px;
+  }
+
+  .secondSection .box{
+    width: 50vw;
+  }
+ 
+  .secondSection {
+    height: 105vw;
+  }
+
+  .secondSection .vertical{
+    height: unset;
+  }
+
+  .box{
+    flex-direction: column;
+  }
+
+  .thirdsection{
+    height: auto;
+  }
+
+  .fourthsection{
+    margin-bottom: 40vh;
+  }
+
+  .fourthsection > div{
+    margin: 50px;
+  }
+
+  form {
+    margin-left: 30px;
+  }
+
+  .skill-title span {
+    padding-left: unset  !important;
+  }
+
+  .fivethsection {
+    height: 110vh;
+  }
+
+  .img-top {
+    top: 50px;
+  }
+
+  .skill-title span{
+    padding-left: unset;
+  }
+
+  footer{
+   
+    position: absolute;
+  }
+  
+
+}
+
+
+
+@media only screen and (max-width: 1060px) {
+    body{
+        min-width: fit-content;
+    }
+
+    .leftsection {
+        width: 500%;
+      }
+    
+      .rightsection {
+        width: 50%;
+      }
+
+      .secondSection {
+        height: 125vw;
+      }
+}
+
+
+@media only screen and (max-width: 900px) {
+
+    body{
+        min-width: fit-content;
+    }
+
+    nav{
+        min-width: fit-content;
+    }
+
+    .secondSection {
+        height: 155vw;
+      }
+
+      .fourthsection {
+        margin-bottom: 25vh;
+      }
+
+      .fivethsection{
+        height: 120vh;
+      }
+}
+
+
+@media only screen and (max-width: 725px) {
+    body{
+        min-width: fit-content;
+    }
+    .secondSection {
+        height: 190vw;
+      }
+
+      .fourthsection {
+        margin-bottom: 90vh;
+        }
+}
+
+
+@media only screen and (max-width: 590px) {
+
+    body{
+        min-width: fit-content;
+    }
+    .secondSection {
+        height: 235vw;
+      }
+
+      .fourthsection {
+        margin-bottom: 120vh;
+        }
+
+        .fivethsection{
+            height: 130vh;
+          }
+
+}
+
+@media only screen and (max-width: 480px) {
+    .secondSection {
+        height: 300vw;
+      }
+
+      .fourthsection {
+        margin-bottom: 125vh;
+      }
+
+      body{
+        min-width: fit-content;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .secondSection {
+        height: 350vw;
+      }
+
+      .fourthsection{
+        margin-bottom: 130vh;
+      }
+
+      body{
+        min-width: fit-content;
+    }
+}
+
+
+@media only screen and (max-width: 300px) {
+    .secondSection {
+        height: 445vw;
+      }
+
+      .fourthsection{
+        margin-bottom: 130vh;
+      }
+
+      body{
+        min-width: fit-content;
     }
 }
